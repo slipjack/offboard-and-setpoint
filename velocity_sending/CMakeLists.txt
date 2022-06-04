@@ -150,14 +150,8 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
-add_executable(setpoint_velocity1 src/setpoint_velocity1.cpp)
-target_link_libraries(setpoint_velocity1 ${catkin_LIBRARIES})
-
-add_executable(setpoint_velocity2 src/setpoint_velocity2.cpp)
-target_link_libraries(setpoint_velocity2 ${catkin_LIBRARIES})
-
-add_executable(setpoint_velocity3 src/setpoint_velocity3.cpp)
-target_link_libraries(setpoint_velocity3 ${catkin_LIBRARIES})
+add_executable(my3 src/my3.cpp)
+target_link_libraries(my3 ${catkin_LIBRARIES})
 
 add_executable(velocity_sending_node src/velocity_sending_node.cpp)
 target_link_libraries(velocity_sending_node ${catkin_LIBRARIES})
