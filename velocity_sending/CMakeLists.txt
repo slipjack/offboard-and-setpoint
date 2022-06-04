@@ -156,6 +156,8 @@ target_link_libraries(my3 ${catkin_LIBRARIES})
 add_executable(velocity_sending_node src/velocity_sending_node.cpp)
 target_link_libraries(velocity_sending_node ${catkin_LIBRARIES})
 
+add_executable(keyboard_control2 src/keyboard_control2.cpp)
+target_link_libraries(keyboard_control2 ${catkin_LIBRARIES})
 
 
 #############
